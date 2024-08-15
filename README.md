@@ -105,17 +105,11 @@ Here is an overview of the project directory structure:
 Book_Recommendation_System/
 │
 ├── venv                     # To store the python library files in the virtual env
-|
 ├── .gitignore               # Containg all the unwanted file venv file and etc.
-|
 ├── book_data.csv            # The dataset file containing Books name, rating and author name labels
-│
 ├── main.ipynb               # Jupyter notebooks for data exploration and analysis
-│
 ├── requirements.txt         # List of dependencies
-|
 ├── LICENSE                  # Containg the license for the project
-│
 └── README.md                # Project documentation (this file)
 ```
 
