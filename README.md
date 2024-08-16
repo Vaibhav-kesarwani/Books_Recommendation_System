@@ -15,6 +15,13 @@ The dataset used in this project consists of three primary components:
 1. **Books Dataset:** Contains details about the books such as title, author, genre, publication year, and book cover image.
 2. **Users Dataset:** Stores user information including user ID, demographics, and reading history.
 3. **Ratings Dataset:** Consists of user ratings for different books, which are crucial for generating recommendations.
+4. **Author Ratings:** Includes ratings based on the author's overall contribution, calculated by considering the number of books they have written and their average ratings.
+
+### Author Rating
+Author Rating is an additional metric introduced in this system to evaluate an author's influence and consistency in producing quality content. This rating is derived by analyzing the number of books an author has written and the average ratings those books have received. This feature helps in providing more balanced recommendations by considering not only individual book ratings but also the overall credibility of the author.
+
+![Author_rating_for_the_books_recommended_graph](https://github.com/user-attachments/assets/808d2121-31c2-45cf-be17-0d59a430de42)
+
 
 ### Source
 The dataset was collected from [Hugging face](https://huggingface.co/datasets/nirajandhakal/goodreads-book-recommend) and includes:
@@ -25,6 +32,7 @@ Before using the dataset, it underwent several preprocessing steps:
 - **Data Cleaning:** Removed duplicates, handled missing values, and standardized formats.
 - **Normalization:** Ratings were normalized to a consistent scale.
 - **Feature Engineering:** Additional features such as `AverageRating` and `GenreFrequency` were derived for enhanced recommendations.
+![Books_raintg_graph](https://github.com/user-attachments/assets/8699d98e-99ae-4843-b5b0-c6b21093157b) 
 
 ## Installation
 
